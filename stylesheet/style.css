@@ -1,0 +1,458 @@
+.head-container {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-evenly;
+    background: #0C99C7;
+    margin: -10px -10px
+}
+
+.logo {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    align-self: center;
+}
+
+.title {
+    align-self: center;
+    font-family: 'Cinzel', serif;
+    font-weight: extra-bold;
+    font-size: 48px;
+}
+
+.products {
+    align-self: center;
+    font-family: 'Rokkitt', serif;
+}
+
+.on-sale {
+    align-self: center;
+    font-family: 'Rokkitt', serif;
+}
+
+.contact {
+    align-self: center;
+    font-family: 'Rokkitt', serif;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    align-self: center;
+}
+
+.log {
+    align-self: center;
+    font-family: 'Rokkitt', serif;
+}
+
+.cart {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    align-self: center;
+}
+
+.intro-container {
+    margin-top: 15px;
+    background-image: url("../images/correct.jpg");
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    margin: -9px -10px 0px -10px;
+}
+
+.intro-text {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-evenly;
+}
+
+.cool-image {
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    align-self: center;
+    margin-top: 200px;
+}
+
+.power {
+    font-size: 36px;
+    align-self: center;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    margin-top: -30px;
+}
+
+.king {
+    font-size: 48px;
+    align-self: center;
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+    margin-top: -95px;
+}
+
+.now {
+    font-size: 36px;
+    align-self: center;
+    font-family: 'Ultra', serif;
+    color: white;
+    margin-top: -50px
+}
+
+.buy {
+    width: 100px;
+    height: 50px;
+    align-self: center;
+    margin-top: -50px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.background {
+    background-color: black;
+    margin: 0px -10px 0px -15px;
+}
+
+.best-container {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.best {
+    font-size: 36px;
+    align-self: flex-start;
+    font-family: 'Cinzel', serif;
+    color: white;
+    margin-top: 125px;
+}
+
+.view {
+    width: 200px;
+    height: 50px;
+    align-self: flex-end;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 35px;
+}
+
+.images-container {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-evenly;
+    margin: -10px -10px
+}
+
+.item-title {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-evenly;
+    margin: -10px -10px
+}
+
+.img-1 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+}
+
+.img-2 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+}
+
+.img-3 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+}
+
+.img-4 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+}
+
+.item-1 {
+    font-size: 24px;
+    align-self: center;
+    font-family: 'Rokkitt', serif;
+    color: white;
+    margin: -80px 0px 0px -75px;
+}
+
+.item-2 {
+    font-size: 24px;
+    align-self: center;
+    font-family: 'Rokkitt', serif;
+    color: white;
+    margin: -80px 0px 0px -75px;
+}
+
+.item-3 {
+    font-size: 24px;
+    align-self: center;
+    font-family: 'Rokkitt', serif;
+    color: white;
+    margin: -80px 0px 0px -75px;
+}
+
+.item-4 {
+    font-size: 24px;
+    align-self: center;
+    font-family: 'Rokkitt', serif;
+    color: white;
+    margin: -80px 0px 0px -75px;
+}
+
+.button-container {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-evenly;
+    margin: -10px -10px;
+    row-gap: 40em;
+}
+
+.button-1 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+    height: 50px;
+    margin: -80px 0px 0px -75px;
+}
+
+.button-2 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+    height: 50px;
+    margin: -80px 0px 0px -75px;
+}
+
+.button-3 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+    height: 50px;
+    margin: -80px 0px 0px -75px;
+}
+
+.button-4 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+    height: 50px;
+    margin: -80px -80px 0px -75px;
+}
+
+.shop-back {
+    background-color: #F8F8FF;
+    margin: 0px -10px 0px -15px;
+}
+
+.shop-container {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+}
+
+.shop {
+    font-size: 36px;
+    font-family: 'Cinzel', serif;
+}
+
+.product-container {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-evenly;
+    margin: -10px -10px
+}
+
+.console {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    margin-top: -65px;
+}
+
+.desktop {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    margin-top: -65px;
+}
+
+.require {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    margin-top: -65px;
+}
+
+.pad {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C99C7;
+    margin-top: -65px;
+}
+
+.pro-text-container {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-evenly;
+    margin: -10px -10px;
+    row-gap: 50em;
+}
+
+.pro-1 {
+    font-size: 24px;
+    align-self: center;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    margin: -105px 20px 0px -125px;
+}
+
+.pro-2 {
+    font-size: 24px;
+    align-self: center;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    margin: -105px 0px 0px -85px;
+}
+
+.pro-3 {
+    font-size: 24px;
+    align-self: center;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    margin: -105px -45px 0px -85px;
+}
+
+.pro-4 {
+    font-size: 24px;
+    align-self: center;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    margin: -109px 0px 0px -85px;
+}
+
+.news-letter {
+    margin-top: 15px;
+    background-image: url("../images/power-up.jpeg");
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    margin: -9px -10px 0px -10px;
+}
+
+.news-container {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.news-title {
+    font-size: 38px;
+    font-family: 'Cinzel', serif;
+    color: white;
+    margin: 205px -10px 0px -10px;
+    align-self: center;
+}
+
+.news-text {
+    font-size: 30px;
+    font-family: 'Rokkitt', serif;
+    color: white;
+    align-self: center;
+}
+
+.email {
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    align-self: center;
+}
+
+.email-field {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rebeccapurple;
+    font-family: 'Orbitron', sans-serif;
+    width: 1300px;
+    height: 620px;
+    align-self: center;
+}
+
+.email-button {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rebeccapurple;
+    font-family: 'Orbitron', sans-serif;
+    width: 800px;
+    height: 220px;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: #F8F8FF;
+    color: black;
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    margin: 0px -10px 0px -15px;
+    text-align: center;
+}
